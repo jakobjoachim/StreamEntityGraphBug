@@ -71,3 +71,5 @@ Because we are streaming the results we get 4 results (one for each line) becaus
 When using `List` instead of `Stream` in the Repository Method everything will work correctly as well.
 
 This problem is present when using Stream + EntityGraph in situations where the SQL doesn't return the entities in adjacent rows.
+
+The bug report is here: https://hibernate.atlassian.net/browse/HHH-14527
